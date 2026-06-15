@@ -16,13 +16,16 @@
 # next.js
 /.next/
 /out/
+.output/
 
 # production
 /build
+/dist
 
 # misc
 .DS_Store
 *.pem
+*.local
 
 # debug
 npm-debug.log*
@@ -30,8 +33,11 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# env files
+.env
+.env.local
+.env.*.local
+!.env.example
 
 # vercel
 .vercel
@@ -39,3 +45,18 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# AI assistant context files
+.claude/
+.agents/
+CLAUDE.md
+GEMINI.md
+skills-lock.json
+CASE_STUDY.md
+
+# database schema files
+*.sql
+
+# local reference / generated assets
+assets/screenshot.png
+assets/demo.gif
