@@ -15,8 +15,7 @@
 
 ---
 
-<!-- 📸 Add your screenshot or demo GIF to the assets/ folder, then uncomment: -->
-<!-- ![Mkule — The Manila Collegian](assets/screenshot.png) -->
+![Mkule — The Manila Collegian](assets/mkule.png)
 
 ---
 
